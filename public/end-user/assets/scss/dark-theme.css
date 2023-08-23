@@ -1,0 +1,398 @@
+/*-------------------------------
+    Dark Theme  CSS
+-------------------------------*/
+.switch-theme-mode {
+  position: fixed;
+  top: 200px;
+  right: auto;
+  left: 20px;
+  z-index: 999999;
+}
+
+.theme-light body {
+  background-color: #fff;
+}
+
+.theme-dark body {
+  background-color: #000;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 0 0px 15px #2020203d;
+          box-shadow: 0 0px 15px #2020203d;
+  background: white url("https://i.ibb.co/7JfqXxB/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #000;
+          box-shadow: 0 0 1px #000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  transform: translateX(24px);
+  background: white url("https://i.ibb.co/FxzBYR9/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*---------------------------------
+    Color CSS For Elements 
+-----------------------------------*/
+.theme-light .comp-logo .logo-dark,
+.theme-light .logo .logo-dark {
+  display: none !important;
+}
+
+.theme-light .comp-logo .logo-light,
+.theme-light .logo .logo-light {
+  display: block !important;
+}
+
+.theme-dark .comp-logo .logo-light,
+.theme-dark .logo .logo-light {
+  display: none !important;
+}
+
+.theme-dark .comp-logo .logo-dark,
+.theme-dark .logo .logo-dark {
+  display: block !important;
+}
+
+.theme-dark .body,
+.theme-dark .bg-midnight {
+  background-color: #000;
+}
+
+.theme-dark .hero-wrap.style3 .overlay.bg-white {
+  background-color: #000 !important;
+}
+
+.theme-dark .blog-card,
+.theme-dark .contact-popup.open,
+.theme-dark .header-wrap .header-bottom,
+.theme-dark .about-wrap .about-content.style2,
+.theme-dark .team-member.style2,
+.theme-dark .instructor-form,
+.theme-dark .header-search .form-group input,
+.theme-dark #contactForm input,
+.theme-dark #contactForm textarea,
+.theme-dark .comment-form-wrap .comment-form .form-group input,
+.theme-dark .comment-form-wrap .comment-form .form-group textarea,
+.theme-dark .checkout .form-group input,
+.theme-dark .checkout .form-group textarea,
+.theme-dark .cart-popup,
+.theme-dark .footer-wrap .footer-top {
+  background-color: #000;
+}
+
+.theme-dark .footer-wrap .footer-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.theme-dark .promo-banner-wrap .promo-content::before,
+.theme-dark .promo-video-wrap::after,
+.theme-dark .ds-wrap::after,
+.theme-dark .newsletter-wrap .form-group input,
+.theme-dark .blog-wrap,
+.theme-dark .team-member,
+.theme-dark .feature-item,
+.theme-dark .nav.nav-tabs.course-tablist li button,
+.theme-dark .course-tab-content .accordion-button[aria-expanded="true"],
+.theme-dark .course-tab-content .accordion-button[aria-expanded="false"],
+.theme-dark .tab-content.course-tab-content .lecture-accordion,
+.theme-dark .social-profile.style2 li a,
+.theme-dark .course-card.style3,
+.theme-dark .contact-address,
+.theme-dark .pricing-box-wrap .pricing-box,
+.theme-dark .accordion-item,
+.theme-dark .accordion-item .accordion-header .accordion-button,
+.theme-dark .blog-card.style2,
+.theme-dark .content-wrapper .post-content .wp-block-quote,
+.theme-dark .nav-tabs .nav-item .nav-link,
+.theme-dark .comment-form-wrap .comment-form-title,
+.theme-dark .product-category-list li.has-subcat > a span,
+.theme-dark .footer-wrap .footer-bottom {
+  background-color: #222;
+}
+
+.theme-dark .nav.nav-tabs.course-tablist li button.active {
+  background-color: #FF4F1E;
+}
+
+.theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6,
+.theme-dark .hero-wrap.style3 .hero-content-wrap .hero-content h1,
+.theme-dark .section-title h2,
+.theme-dark .about-wrap .about-content h5,
+.theme-dark .blog-card .blog-info h3 a,
+.theme-dark .sidebar-menu i,
+.theme-dark .mobile-top-bar i,
+.theme-dark .main-menu-wrap.style1 #menu > ul > li > a,
+.theme-dark .testimonial-item .quote-icon i,
+.theme-dark .team-member .team-member-info h4,
+.theme-dark .course-card .course-info h3 a,
+.theme-dark .feature-item h5 a,
+.theme-dark .comment-author_info h6,
+.theme-dark .project-details-para h4,
+.theme-dark .team-member.style2 .team-member-info h4 a,
+.theme-dark .insructor-tab-content .instructor-title,
+.theme-dark .tab-content.course-tab-content h5,
+.theme-dark .nav.nav-tabs.course-tablist li button,
+.theme-dark .form-group input,
+.theme-dark .form-group textarea,
+.theme-dark #contactForm input,
+.theme-dark #contactForm textarea,
+.theme-dark .contact-address .contact-info h5,
+.theme-dark .course-details-widget.sidebar-box h5,
+.theme-dark .accordion-item .accordion-header .accordion-button,
+.theme-dark .search-box input,
+.theme-dark .sidebar .sidebar-widget h4,
+.theme-dark .pp-post-item .pp-post-info h6 a,
+.theme-dark .ecour-faq .accordion-item .accordion-header .accordion-button[aria-expanded="true"],
+.theme-dark .pp-content h4,
+.theme-dark .error-content h2,
+.theme-dark .error-content h4,
+.theme-dark .category-box ul li a,
+.theme-dark .content-wrapper .post-content .post-subtitle,
+.theme-dark .post-author-info h4,
+.theme-dark .post-tag span, .theme-dark .post-share span,
+.theme-dark .social-profile li a i,
+.theme-dark .post-comment-wrap.style2 .comment-title,
+.theme-dark .comment-form-wrap .comment-form-title.style2 h4,
+.theme-dark .comment-form.style2 label,
+.theme-dark .login-form .login-body label,
+.theme-dark .checkout .form-group input,
+.theme-dark .checkout .form-group textarea,
+.theme-dark .wishlist-table table tbody tr td .wh-tem-price,
+.theme-dark .form-group .or,
+.theme-dark .product-quantity .qtySelector input,
+.theme-dark .wishlist-table table tbody td a,
+.theme-dark .product-quantity .qtySelector span,
+.theme-dark .total-wrap span,
+.theme-dark .product-card:hover .product-info h4 a,
+.theme-dark .nav-tabs .nav-item .nav-link,
+.theme-dark .nav-tabs .nav-link.active,
+.theme-dark .new-product-item .new-product-info h6 a,
+.theme-dark .product-card .product-info h4 a,
+.theme-dark .product-category-list li.has-subcat > a,
+.theme-dark .cart-popup .cart-popup-item-wrap .cart-popup-item .cart-popup-item-price button i,
+.theme-dark .cart-popup .close-popup i,
+.theme-dark .mobile-menu a i {
+  color: #fff !important;
+}
+
+.theme-dark p,
+.theme-dark .hero-wrap.style3 .hero-content-wrap .hero-content p,
+.theme-dark .section-title p,
+.theme-dark .content-title p,
+.theme-dark .feature-item p,
+.theme-dark .about-features-list li,
+.theme-dark .course-card .course-info p,
+.theme-dark .course-card .course-metainfo p,
+.theme-dark .course-card .course-metainfo p a,
+.theme-dark .team-member .team-member-info p,
+.theme-dark .course-details-widget ul li p,
+.theme-dark .tab-content.course-tab-content p,
+.theme-dark .tab-content.course-tab-content ul.course-details-list li,
+.theme-dark .post-comment-wrap .comment-item .comment-author_text p,
+.theme-dark .course-details-meta li,
+.theme-dark .insructor-tab-content p,
+.theme-dark .project-details-para p,
+.theme-dark .contact-address .contact-info p,
+.theme-dark .contact-address .contact-info a,
+.theme-dark .insructor-tab-content span,
+.theme-dark .insructor-tab-content .footer-contact-address li a,
+.theme-dark .insructor-tab-content .footer-contact-address li p,
+.theme-dark .course-rating span,
+.theme-dark .content-wrapper .post-content .wp-block-quote p,
+.theme-dark .checkbox label,
+.theme-dark .checkout label,
+.theme-dark .pricing-box-wrap .pricing-box .price-tag h3 span,
+.theme-dark .pricing-box-wrap .pricing-box .price-box-features li,
+.theme-dark .accordion-body p,
+.theme-dark .pp-content p,
+.theme-dark .error-content p,
+.theme-dark .tag-list ul li a,
+.theme-dark .footer-contact-address li a,
+.theme-dark .footer-contact-address li,
+.theme-dark .footer-contact-address li p,
+.theme-dark .page-navigation .page-nav li a,
+.theme-dark .pp-post-item .pp-post-info span,
+.theme-dark .content-wrapper .post-content p,
+.theme-dark .post-author-info p,
+.theme-dark .comment-form-wrap .comment-form-title.style2 p,
+.theme-dark .select-method [type="radio"]:checked + label,
+.theme-dark .select-method [type="radio"]:not(:checked) + label,
+.theme-dark .bill-item .bill-item-price span,
+.theme-dark .subtotal-item-right span,
+.theme-dark .single-product-details .single-product-desc p,
+.theme-dark .comment-form-wrap .comment-form .checkbox label,
+.theme-dark #amount_one,
+.theme-dark .blog-card .blog-info p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-dark .footer-wrap .footer-top .footer-widget .social-profile li a i,
+.theme-dark .course-card .course-metainfo p i {
+  color: #FF4F1E !important;
+}
+
+.theme-dark .course-rating span:before {
+  background: rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark .blog-card .blog-info .read-more i,
+.theme-dark .feature-item a,
+.theme-dark .main-menu-wrap.style1 #menu > ul > li > a.active,
+.theme-dark .main-menu-wrap.style1 #menu > ul > li > a:hover {
+  color: #FF4F1E;
+}
+
+.theme-dark .instructor-form,
+.theme-dark .form-group input,
+.theme-dark .form-group textarea,
+.theme-dark #contactForm input,
+.theme-dark #contactForm textarea,
+.theme-dark .comment-form-wrap .comment-form .form-group input,
+.theme-dark .comment-form-wrap .comment-form .form-group textarea,
+.theme-dark .search-box input,
+.theme-dark .comment-form-wrap .comment-form .form-group input,
+.theme-dark .comment-form-wrap .comment-form .form-group textarea,
+.theme-dark .sidebar .sidebar-widget,
+.theme-dark .page-navigation .page-nav li a,
+.theme-dark .login-form .login-body,
+.theme-dark .checkout .form-group input,
+.theme-dark .checkout .form-group textarea,
+.theme-dark .bill-details,
+.theme-dark .product-card,
+.theme-dark .product-large-img,
+.theme-dark .product-thumb,
+.theme-dark .cart-popup .cart-popup-item-wrap .cart-popup-item .cart-popup-item-price button i,
+.theme-dark .cart-popup .close-popup i,
+.theme-dark .sidebar-box {
+  border: 1px solid rgba(255, 255, 255, 0.19) !important;
+}
+
+.theme-dark .course-card .course-metainfo {
+  border-top: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark .tab-content.course-tab-content,
+.theme-dark .accordion-item .accordion-header .accordion-button,
+.theme-dark .tab-content.course-tab-content .lecture-accordion,
+.theme-dark .tab-content.course-tab-content .lecture-item,
+.theme-dark .accordion-item,
+.theme-dark .header-search .form-group button,
+.theme-dark .course-card.style3 .course-info,
+.theme-dark .pricing-box-wrap .pricing-box .price-tag,
+.theme-dark .post-author,
+.theme-dark .content-wrapper article,
+.theme-dark .post-comment-wrap.style2 .comment-item,
+.theme-dark .bill-item-wrap,
+.theme-dark .wishlist-table table thead tr th,
+.theme-dark .wishlist-table table tbody tr td,
+.theme-dark .product-quantity .qtySelector,
+.theme-dark .product-quantity .qtySelector input,
+.theme-dark .wishlist-table table tbody tr,
+.theme-dark .product-category-list li.has-subcat > a,
+.theme-dark .cart-popup .cart-popup-total-wrap .cart-popup-total,
+.theme-dark .nav.nav-tabs.course-tablist li {
+  border-color: rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark .wishlist-table table thead tr {
+  border-top: none;
+}
+
+.theme-dark .ecour-faq .accordion-button[aria-expanded="true"]::after,
+.theme-dark .accordion-button::after {
+  border-color: #fff;
+}
+
+.theme-dark .course-card.style1,
+.theme-dark .course-card.style2 {
+  border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark .blog-author-wrap {
+  border-top: 1px solid rgba(255, 255, 255, 0.19);
+  padding-top: 28px;
+}
+
+.theme-dark .feature-item a span::after {
+  background-color: rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark .testimonial-item {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.theme-dark .feature-item {
+  border-right: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.theme-dark h3 a:hover {
+  color: #FF4F1E !important;
+}
+
+.theme-dark .course-card.style3 .course-metainfo {
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  .theme-dark .header-wrap .main-menu-wrap.style1 #menu .main-menu li a {
+    color: #000 !important;
+  }
+}
+/*# sourceMappingURL=dark-theme.css.map */

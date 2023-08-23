@@ -1,0 +1,48 @@
+@import './general';
+@import './header';
+@import './breadcrumb';
+@import './hero';
+@import './event';
+@import './about';
+@import './course';
+@import './pricing';
+@import './team';
+@import './testimonial';
+@import './promo';
+@import './shop';
+@import './blog';
+@import './footer';
+@import './responsive';
+@import './rtl';
+@import './dark-theme';
+
+/*-------------------------------
+    Buy Now Btn
+-------------------------------*/
+.buy-now-btn {
+    img {
+        top: 50%;
+        left: 20px;
+        width: 15px;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    right: 20px;
+    z-index: 99;
+    top: 50%;
+    position: fixed;
+    transform: translateY(-50%);
+    border-radius: 30px;
+    display: inline-block;
+    color: $clr_white;
+    background-color: #82b440;
+    padding: 10px 20px 10px 42px;
+    box-shadow: 0 1px 20px 1px #82b440;
+    font-size: 15px;
+    font-weight: 600;
+    &:hover {
+        color: $clr_white;
+        background-color: #94be5d;
+    }
+}
+

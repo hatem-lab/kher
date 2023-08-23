@@ -1,0 +1,775 @@
+/*-------Style Sidebar------*/
+.app-sidebar .side-item.side-item-category {
+    letter-spacing: 0px;
+    color: #1c6eb7 !important;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.slide.is-expanded a {
+    color: #000;
+}
+
+/*------Update general text in  all page */
+.text-muted {
+    color: #4a4949 !important;
+    font-size: 20px !important;
+}
+
+/* .dropdown-item{
+    margin-top: -30px;
+} */
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: none !important;
+}
+
+.form-label {
+    color: #4a4949;
+
+}
+
+.label-mar-b {
+    margin-bottom: 9px !important;
+}
+
+.slide-item {
+    font-size: 15px;
+}
+
+.app-sidebar .slide-menu a::before {
+    font-size: 13px;
+}
+
+.mr-10 {
+    margin-right: -10px;
+}
+
+.mr10 {
+    margin-right: 10px
+}
+
+/*--------update general table -------*/
+
+
+/*------Design 1920px ----*/
+
+/*-----تعديل الجدول الخاص بالمستخدمين ---*/
+.table thead th {
+    letter-spacing: 0;
+    font-size: 15px !important;
+}
+
+table.dataTable thead .sorting::after {
+
+    top: 54%;
+
+}
+
+table.dataTable thead .sorting::after,
+table.dataTable thead .sorting::before {
+    font-size: 14px;
+    left: -17px;
+}
+
+.btn-sm {
+    font-size: 16px;
+}
+
+.text-success,
+.text-danger {
+    margin-right: 9px;
+    font-size: 15px;
+}
+
+.dot-label {
+    bottom: -7px;
+}
+
+#example1_filter {
+    margin-left: -10px;
+}
+
+.pagination {
+    margin-left: -10px !important;
+}
+
+/*---------Update role page ----*/
+.width-th {
+    width: 324.817px;
+}
+
+/*------update User page -----*/
+.btn-sm {
+    padding: 10px 17px !important;
+    font-size: 15px !important;
+
+}
+
+.form-control {
+    box-shadow: 0px 4px 6px #dfdfdf;
+}
+
+.form-control-sm {
+    float: right;
+}
+
+.form-select-sm {
+    float: right;
+
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    margin: 0 -3px;
+    text-align: center;
+    padding: 6px 24px;
+}
+
+div.dataTables_wrapper {
+    margin-bottom: 25px;
+}
+
+.mr {
+    margin-right: 8px;
+}
+
+/*------update Add  User page -----*/
+.form-control-sm {
+    height: calc(1.5em + .5rem + 9px)
+}
+
+.form-control {
+    height: calc(1.5em + .5rem + 10px)
+}
+
+.btn-right {
+    float: right;
+    margin-right: -12px;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border-radius: 3px;
+}
+
+.mg-t-30 {
+    margin-top: 30px;
+}
+
+/*------update Role  User page -----*/
+/*------update surveys page--- -----*/
+.fz-13 {
+    font-size: 13px !important;
+}
+
+/*------update tests page--- -----*/
+.mt-12 {
+    margin-top: 12px !important;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.form-label {
+    margin-right: 3px;
+}
+
+.p-data {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.padd-data {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*
+.input-padd{
+    padding-left: 0px !important;
+    padding-right: 99px !important;
+} */
+.mr-12 {
+    margin-right: 12px;
+}
+
+.mr-19 {
+    margin-right: 19px;
+}
+
+/* .mg-b-10 {
+
+    margin-top: 10px;
+    margin-right: 3px
+} */
+/*------update Courses page--- -----*/
+
+/*------Add Courses page--- -----*/
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+/*------Add Students page--- -----*/
+.mr-10 {
+    margin-right: 10px;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+
+@media (min-width: 400px) and (max-width: 1024px) {
+
+    /*------update User page -----*/
+    .btn-sm {
+        padding: 10px 17px !important;
+        font-size: 12px !important;
+        margin-right: 85px;
+
+    }
+
+}
+
+/*-------update lectcure page -----*/
+.mr-3 {
+    margin-right: 3px;
+}
+
+.width-input {
+    width: 102.5%;
+    padding-right: 20px !important;
+    padding-left: -20px !important;
+}
+
+.width-in {
+    width: 98.5%;
+}
+
+/*------style icons side bar-----*/
+.slide.is-expanded .angle,
+.slide.is-expanded .side-menu__icon,
+.slide.is-expanded .side-menu__label {
+    color: #000 !important;
+
+}
+
+.slide:hover .side-menu__label {
+    color: rgb(60, 56, 56) !important;
+}
+
+.side-menu__icon {
+    fill: #1D70B7  !important;
+}
+
+.slide:hover .side-menu__icon {
+    fill: #1D70B7 !important;
+}
+
+.side-menu__label {
+    color: #000;
+    font-size: 17px;
+
+}
+
+.menu__item.active .side-menu__label {
+    color: #37A9E0;
+}
+
+.app-sidebar .slide.active .side-menu__icon,
+.app-sidebar .slide.is-expanded .side-menu__icon {
+    fill: #1D70B7 !important;
+}
+
+.slide:hover .angle,
+.app-sidebar .slide-menu a.active::before,
+.slide-item.active,
+.slide-item:hover {
+    color: #37A9E0 !important;
+}
+
+.slide-item.active {
+    color: #37A9E0 !important;
+}
+
+.slide-item:hover {
+    color: #37A9E0 !important;
+}
+
+/*------Update homework page- and setting--- */
+.profile.navtab-custom li a {
+    background-color: #37A9E0 !important;
+    color: #fff;
+}
+
+.profile.navtab-custom a.active {
+    background: #ecf0fa !important;
+    color: #37A9E0 !important;
+}
+
+.profile.navtab-custom li a {
+    font-size: 15px;
+}
+
+
+.select2-selection--single {
+    height: 41px !important;
+}
+
+/* checked if you teacher in page users */
+.form-check-input:checked {
+    background-color: #2e8a01;
+    border-color: #2e8a01;
+}
+
+/*---sidebar image user and logo */
+.app-sidebar__user {
+    margin-top: 75px;
+}
+
+.main-sidebar-header {
+    height: 150px;
+    padding: 0px;
+    border-bottom: none !important;
+    background: #fff;
+
+}
+.app-sidebar__user .user-pro-body{
+    /* background: #4B5D67; */
+    background: #fff;
+
+}
+.side-menu{
+    background: #fff;
+
+}
+
+.app.sidebar-mini.sidenav-toggled .logo-icon {
+    height: 8.3rem !important;
+    
+}
+
+.main-logo {
+    height: 12rem;
+    width: 60vh;
+}
+
+.responsive-logo .logo-1 {
+    height: 5rem !important;
+    margin-top: 13px !important;
+    margin-right: 2px !important;
+}
+
+.sidenav-toggled .app-sidebar__user {
+    padding-top: 100px !important;
+}
+
+/*============style login page ====================*/
+.page,
+.main-body {
+    background-color: rgb(203, 231, 255);
+}
+
+.row-login {
+    position: relative;
+
+}
+
+.row-boxx {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 500px;
+    height: 80vh;
+    border: 1px solid #ececec;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 7px 10px 6px #dfdfdf;
+
+}
+
+.card-sigin {
+    margin-top: -50px;
+
+}
+
+/* desgin logo*/
+.card-sigin a {
+    margin: -212px auto
+}
+
+.ht-180 {
+    height: 180px;
+}
+
+.info-logo {
+    margin-top: -95px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.info-logo h1 {
+    font-size: 50px;
+    font-family: "Neue Frutiger Arabic ";
+}
+
+.info-logo h3 {
+    margin-top: -66px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #5b5d63;
+}
+
+@media (min-width: 350px) and (max-width: 760px) {
+    .responsive-logo .logo-2 {
+        height: 5rem;
+        margin-top: 13px;
+        margin-right: 2px;
+    }
+    /* .btn-sm {
+        padding: 10px 17px !important;
+        font-size: 12px !important;
+        margin-right: 85px;
+
+    } */
+}
+
+/*----toggle bars*/
+
+.header-icon {
+    color: #585a60;
+    font-size: 1.9rem;
+    line-height: 40px !important;
+}
+
+/*---------*/
+.main-signup-header {
+    font-size: 26px;
+    /* height:110px; */
+    direction: rtl;
+    text-align: center;
+    border: none;
+
+}
+
+.main-signup-header h2 {
+    color: #1D70B7;
+    margin-top: 32px;
+    margin-bottom: 42px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 24px;
+}
+
+.main-signup-header h5 {
+    float: right;
+    margin-bottom: -34px;
+    margin-right: 24px;
+    color: #292325;
+    margin-top: -32px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/*---form----*/
+form {
+    direction: rtl
+}
+
+.box-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+
+.box-group i {
+    border-radius: 2px 6px 6px 2px;
+    display: inline-block;
+    width: 32px;
+    height: 37px;
+    background: #1D70B7;
+    color: #fff;
+    line-height: 37px;
+    font-size: 16px
+    ;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.box-label {
+    margin-right: -200px;
+    display: block;
+    font-size: 18px;
+}
+
+.icon-user {
+    width: 40px;
+    height: 40px;
+    background: #FEAC5E;
+}
+
+.box-input {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    width: 100%;
+    height: 38px;
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid #dfdbdb !important;
+    border-top: 1px solid #dfdbdb !important;
+    border-right: 1px solid #dfdbdb !important;
+    border-left: 1px solid #dfdbdb !important;
+    box-shadow: 0px 6px 6px #dfdfdf;
+
+}
+
+.box-input::placeholder {
+    padding-right: 10px;
+}
+
+.btn-box {
+    margin-right: 125px;
+    padding: 10px;
+    width: 42%;
+    color: #fff;
+    /* background: #FEAC5E; */
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  #1D70B7, #5BCEB4,);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D70B7, #5BCEB4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn-box:hover {
+    background: -webkit-linear-gradient(to right, #5BCEB4, #1D70B7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5BCEB4, #1D70B7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.box-signup {
+    direction: rtl;
+    margin-right: -200px;
+    font-size: 15px;
+}
+
+.main-signin-footer {
+    direction: rtl;
+    margin-right: 20px;
+}
+
+.box-signup a {
+    color: #d05b74;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*----card in dashnord----*/
+.bg-primary-gradient {
+
+    background-image: linear-gradient(45deg,#37A9E0, #1D70B7) !important;
+}
+
+.bg-danger-gradient {
+    background-image: linear-gradient(270deg, #37A9E0, #5BCEB4) !important;
+}
+
+.bg-success-gradient {
+    background-image: linear-gradient(270deg, #5BCEB4, #a6e9d9) !important;
+}
+
+.bg-warning-gradient {
+    background-image: linear-gradient(270deg, #a6e9d9, #c0eee3) !important;
+}
+
+.mt-200 {
+    margin-top: -200px
+}
+
+#back-to-top {
+    background: #1D70B7;
+}
+
+/*--responsive login page*/
+
+.style-role{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    font-size:20px !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .card-imge {
+        width: 200px;
+        height: 200px;
+        margin: 10px auto
+    }
+    .app.sidebar-mini.sidenav-toggled .logo-icon {
+        height: 11.3rem !important;
+        margin-right: 14px;
+    }
+    .main-signup-header h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .m-b-40{
+        margin-bottom: 41px !important;
+    }
+    .style-role{
+        font-size: 15px !important;
+    }
+    .btn-blog{margin-right: 67px !important; }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    
+    .btn-blog{margin-right: 67px !important; }
+}
+@media (min-width: 901px) and (max-width: 1024px) {
+
+    .btn-blog{margin-right: 200px !important; }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    .btn-blog{margin-right: 220px !important; }
+}
+@media (min-width: 1201px) and (max-width: 1900px) {
+
+    .btn-blog{margin-right: 250px !important; }
+}
+/*---page profile--*/
+.main-header-profile {
+    background-color: #1D70B7 !important;
+}
+
+.main-header .dropdown-menu::after {
+    border-bottom: 9px solid #1D70B7 !important;
+}
+
+.main-profile-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #1D70B7 !important;
+}
+
+.btn-blocke {
+    background: rgb(255, 0, 0) !important;
+    color: #fff !important;
+}
+
+/* .card-title {
+    margin-top: 2.75rem;
+} */
+
+.mg-r-t {
+    margin-right: 20px !important;
+    margin-top: -29px !important;
+}
+
+/*====style loader images======*/
+
+#global-loader {
+    background: #fff;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50000
+}
+
+.loader-img {
+    top: 20% !important;
+    max-width: 100% !important;
+    height: 30% !important
+}
+
+.card-body .bg-color{
+    /* background: linear-gradient(to right,#FEAC5E, #d05b74); */
+    background-image: linear-gradient(270deg, #37A9E0, #5BCEB4) !important;
+
+}
+.card-footer, .card-header{
+    background-color: #d0d7e8;
+}
+.table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc{
+    background-color: #1D70B7 !important;
+    color: #fff;
+}
+.mb-15{margin-bottom: 15px;}
+table > thead{
+    background-color: #1D70B7;
+}
+thead th {
+    color: #fff !important;
+    
+}
+/*Bule button*/
+.blue-button{
+    background-color: #1d70b7;
+    border-color: #1d70b7;
+    color: #fff;
+}
+.f-z-30{
+    font-size: 30px;
+}
+.f-z-25{
+    font-size: 25px;
+}
+.f-z-18{
+    font-size: 18px;
+}
+.f-z-15{
+    font-size: 15px;
+}
+
+.s-role{
+        font-size: 28px;
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-right: 2px;
+        color: #292325;
+}
+input[type="checkbox"], input[type="radio"] {
+    accent-color: #74992e;
+    width: 20px;
+}
+.card-style{
+    /* background-color: #1d70b7; */
+    background-image: linear-gradient(270deg, #37A9E0, #5BCEB4) !important;
+    /* background-color: #1b61a2; */
+    color: #fff;
+    border-radius: 10px;
+}
+.btn2-style{
+    background-color: #1d70b7;
+    border-color: 5BCEB4;
+    padding: 11px 35px;
+    font-size: 17px;
+}
+.icon_white{
+    fill: #fff !important;
+}
+.mtb{
+    margin-top: 0.75rem;
+    margin-bottom: 16px;
+}
+.style-title{
+    font-size: 24px;
+    color: #37A9E0;
+}
+.main-sidebar-header {
+    display: block !important;
+}

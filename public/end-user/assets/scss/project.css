@@ -1,0 +1,278 @@
+.project-card .project-card-footer, .fund-collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.project-card .project-card-footer, .fund-collection {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+
+@-webkit-keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+}
+
+@keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+}
+
+/*----------------------------
+    Project CSS
+------------------------------*/
+.cause-bg-1 {
+  background-image: url(../img/project/project-1.jpg);
+}
+
+.cause-bg-2 {
+  background-image: url(../img/project/project-2.jpg);
+}
+
+.cause-bg-3 {
+  background-image: url(../img/project/single-project-2.png);
+}
+
+.project-card {
+  margin: 0 0 30px;
+}
+
+.project-card .project-info {
+  padding: 25px 30px 30px;
+}
+
+.project-card .project-info h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 0 0 20px;
+}
+
+.project-card .project-info p {
+  margin: 15px 0 20px 0;
+}
+
+.project-card .project-card-footer .project-share li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.project-card .project-card-footer .project-share li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #818181;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.project-card .project-card-footer .project-share li a:hover {
+  background-color: #FF4F1E;
+}
+
+.project-card .project-card-footer .project-share li a:hover i {
+  color: #fff;
+}
+
+.project-card .project-card-footer .project-share li a i {
+  line-height: 44px;
+  font-size: 22px;
+}
+
+.project-card .project-img {
+  overflow: hidden;
+  position: relative;
+}
+
+.project-card .project-img img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.project-card:hover.style1 .project-img img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.project-card:hover.style1 .project-img .overlay {
+  opacity: 0;
+}
+
+.project-card:hover .project-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.project-card.style1 {
+  border-radius: 20px;
+}
+
+.project-card.style1 .project-img {
+  border-radius: 20px 20px 0 0;
+}
+
+.project-card.style1 .project-img .overlay {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.project-card.style1 .project-img img {
+  border-radius: 20px 20px 0 0;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.project-card.style1 .project-info {
+  border-radius: 0 0 25px 25px;
+  border: 1px solid #ddd;
+}
+
+.project-card.style2 .project-info {
+  background-color: #F3F6FB;
+}
+
+.project-card.style2 .project-info p {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.project-card.style2 .project-info .project-card-footer .btn {
+  border-radius: 0;
+}
+
+.project-card.style2 .project-info .project-card-footer .project-share li a {
+  border-radius: 0;
+}
+
+.fund-collection {
+  margin: 5px 0 0;
+}
+
+.fund-collection li {
+  color: #4C4C4C;
+  font-size: 14px;
+}
+
+.fund-collection li span {
+  color: #FF4F1E;
+  color: #FF4F1E;
+  margin-left: 3px;
+}
+
+/*-------------------------------------
+        Cause Details CSS
+---------------------------------------*/
+.projecct-details .project-gal {
+  height: 450px;
+  border-radius: 20px;
+}
+
+.projecct-details .project-gal .overlay {
+  border-radius: 20px;
+}
+
+.projecct-details .skills {
+  margin: 30px 0 25px;
+}
+
+.projecct-details .project-details-para {
+  margin: 0 0 30px;
+}
+
+.projecct-details .project-details-para:last-child {
+  margin: 0;
+}
+
+.projecct-details .project-details-para h4 {
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+.projecct-details .project-details-para p {
+  margin: 0;
+}
+
+.project-highlight-text {
+  position: relative;
+  padding: 40px 35px 10px;
+  background-color: #F3F6FB;
+  border-radius: 20px;
+  margin: 0 0 30px;
+}
+
+.project-highlight-text p {
+  color: #000;
+  position: relative;
+  margin: 0 0 25px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+  .more-cause-widget .cause-item .cause-img {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .project-card .project-info {
+    padding: 20px 20px 20px;
+  }
+  .project-card .project-info h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+  }
+  .project-card.style1 .project-info p {
+    margin: 10px 0 20px 0;
+  }
+}
+/*# sourceMappingURL=project.css.map */
